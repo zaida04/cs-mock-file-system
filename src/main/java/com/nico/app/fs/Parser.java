@@ -1,8 +1,8 @@
-package com.nico.app;
+package com.nico.app.fs;
 
 import java.util.ArrayList;
 
-class Parser {
+public class Parser {
 	public FileSystem parse(String input) {
 		String[] lines = input.split("\n");
 		ArrayList<File> files = new ArrayList<File>();

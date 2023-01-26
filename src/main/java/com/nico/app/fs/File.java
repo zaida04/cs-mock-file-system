@@ -1,4 +1,4 @@
-package com.nico.app;
+package com.nico.app.fs;
 
 public class File extends Location {
   public File(String name) {
