@@ -37,7 +37,7 @@ public class Parser {
 	private Tuple<LocationType, Integer> getLocationType(String line) throws Exception {
 		String precedingFlag = "";
 		for (int i = 0; i < line.length() - 1; i++) {
-			if (Character.isLetter(line.charAt((i))))
+			if (Character.isLetter(line.charAt(i)))
 				break;
 			precedingFlag += line.charAt(i);
 		}
