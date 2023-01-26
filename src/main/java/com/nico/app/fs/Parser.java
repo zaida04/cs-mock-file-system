@@ -31,8 +31,7 @@ public class Parser {
 	}
 
 	private String getName(String digestibleLine, int length) {
-		Integer typeLength = length;
-		return digestibleLine.substring(typeLength);
+		return digestibleLine.substring(length);
 	}
 
 	private Tuple<LocationType, Integer> getLocationType(String line) throws Exception {
